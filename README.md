@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is YoRzHe-HotaaRu and I'm a Hobbyist Developer & Pixel Artist, from UiTM Tapah, Perak, Malaysia</h2>
+<h2 align="left">Hi there!  I'm a Hobbyist Developer & Pixel Art Dev from UiTM Tapah, Perak, Malaysia</h2>
 
 ###
 
@@ -33,7 +33,6 @@
 </div>
 
 ###
-
 <!-- Frameworks & Tools -->
 <div align="left">
   <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" height="30" alt="flask" />
@@ -76,8 +75,6 @@
 </div>
 
 ###
-
-<br clear="both">
 
 ### 🎮 **Current Quest**
 I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **Introductory C++ Programming** using **Godot 4**! Think *"learn to code while saving a pixelated kingdom"* 🏰✨
