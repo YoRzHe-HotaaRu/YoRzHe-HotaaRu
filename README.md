@@ -3,7 +3,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=1&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=false&width=435&lines=YoRzHe-HotaaRu" alt="Typing Text" />
 
   <p style="font-size: 16px; color: #8b949e; margin-top: -10px;">
-    🎮 Hobbyist Developer | 🎨 Pixel Artist | 🤖 Open-Source LLM Enthusiast
+    🎮 Hobbyist Developer | 🎨 Pixel Art Dev | 🤖 Open-Source LLM Enthusiast
   </p>
 
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Rainbow Line" width="100%" height="2" />
@@ -111,7 +111,7 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/Art-Pixel%20Art-00ff00?style=flat-square&logo=pixelfed" alt="Pixel Art" /><br/>
-        <sub>🎨 2D Pixel Art Wizard</sub>
+        <sub>🎨 2D Pixel Art Dev</sub>
       </td>
     </tr>
   </table>
