@@ -24,7 +24,7 @@
 I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **Introductory C++ Programming** using **Godot 4**! Think *"learn to code while saving a pixelated kingdom"* 🏰✨
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Godot%204-478CBF?style=for-the-badge&logo=godot-engine" alt="Godot 4" />
+  <img src="https://img.shields.io/badge/Godot%204-478CBF?style=for-the-badge&logo=godotengine" alt="Godot 4" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Game%20Dev-FF6B6B?style=for-the-badge&logo=unity&logoColor=white" alt="Game Dev" />
 </div>
