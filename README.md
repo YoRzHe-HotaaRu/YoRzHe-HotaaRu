@@ -26,7 +26,7 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
 <div align="center">
   <img src="https://img.shields.io/badge/Godot%204-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" alt="Godot Engine" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/Game%20Dev-FF6B6B?style=for-the-badge&logo=unity&logoColor=white" alt="Game Dev" />
+  <img src="https://img.shields.io/badge/Game%20Dev-FF6B6B?style=for-the-badge&logo=youtubegaming&logoColor=white" alt="Game Dev" />
 </div>
 
 ---
