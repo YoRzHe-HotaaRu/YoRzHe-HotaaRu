@@ -1,96 +1,140 @@
-# Hello, I'm Amir Hafizi! 👋
+<div align="center">
 
-> Computer Science student passionate about building innovative solutions and exploring the world of open-source LLMs.
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=1&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=false&width=435&lines=YoRzHe-HotaaRu" alt="Typing Text" />
 
----
+  <p style="font-size: 16px; color: #8b949e; margin-top: -10px;">
+    🎮 Hobbyist Developer | 🎨 Pixel Artist | 🤖 Open-Source LLM Enthusiast
+  </p>
 
-## 🎓 Education
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Rainbow Line" width="100%" height="2" />
 
-**Bachelor of Computer Science**  
-*Universiti Teknologi MARA (UiTM) Tapah, Perak, Malaysia*  
-*Expected Graduation: 2026*
+</div>
 
----
+<br>
 
-## 🛠️ Technologies & Tools
-
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-
-### Game Development
-![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
-![GDScript](https://img.shields.io/badge/GDScript-355570?style=flat-square&logo=godot-engine&logoColor=white)
-
-### Web Development
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-0C1222?style=flat-square&logo=astro&logoColor=white)
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=YoRzHe-HotaaRu&label=Profile+Views&color=ff69b4&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=github" alt="Active Status" />
+</div>
 
 ---
 
-## 🎮 Current Project
+### 🎮 **Current Quest**
 
-### Narrative-Driven 2D Top-Down Adventure Game
-*Teaching C++ Programming through Interactive Gameplay*
+I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **Introductory C++ Programming** using **Godot 4**! Think *"learn to code while saving a pixelated kingdom"* 🏰✨
 
-**Built with:** Godot 4 & GDScript  
-**Status:** 🟡 In Development  
-**Concept:** An adventure-style game where players learn C++ fundamentals through engaging storytelling and interactive challenges.
-
----
-
-## 🤖 AI & LLM Enthusiast
-
-Passionate about exploring the world of open-source Large Language Models and their applications in development. Always experimenting with new AI tools and frameworks to enhance productivity and creativity.
-
-**Currently exploring:**
-- Open-source LLM integration
-- AI-powered development workflows
-- Machine learning applications
+<div align="center">
+  <img src="https://img.shields.io/badge/Godot%204-478CBF?style=for-the-badge&logo=godot-engine" alt="Godot 4" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Game%20Dev-FF6B6B?style=for-the-badge&logo=unity&logoColor=white" alt="Game Dev" />
+</div>
 
 ---
 
-## 💼 Let's Connect
+### 🛠️ **Tech Arsenal**
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amir-hafizi-musa-5530b9364)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/330997221334056971)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@VectorVulKan727)
+  <!-- Web Development -->
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white" alt="Astro" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white" alt="Node.js" />
+  
+  <!-- Game Development -->
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godot-engine&logoColor=white" alt="GDScript" />
+  
+  <!-- AI/ML -->
+  <img src="https://img.shields.io/badge/LLMs-FF6B6B?style=flat-square&logo=huggingface&logoColor=white" alt="LLMs" />
+  <img src="https://img.shields.io/badge/Open%20Source-AI-FFA500?style=flat-square&logo=opensource&logoColor=white" alt="Open Source" />
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+### 📊 **GitHub Arcane Stats**
 
 <div align="center">
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=modern&include_all_commits=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=modern)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=modern)
+  <img src="https://github-readme-stats.vercel.app/api?username=YoRzHe-HotaaRu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="GitHub Stats" height="180px" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YoRzHe-HotaaRu&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&layout=compact" alt="Top Languages" height="180px" />
 
 </div>
 
 ---
 
-## 🎮 Beyond Code
+### 🎓 **Student Journey**
 
-**Favorite Games:** Infinity Nikki, Wuthering Waves  
-**Hobbies:** 2D Pixel Art Creation, LLM Testing & Experimentation  
-**Interests:** Open-source contributions, indie game development, AI research
+> 🏛️ **Bachelor of Computer Science**  
+> **Universiti Teknologi MARA (UiTM) Tapah**  
+> *Perak, Malaysia* 🇲🇾
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Student-CS%20Degree-blue?style=flat-square&logo=graduation-cap" alt="Student" />
+  <img src="https://img.shields.io/badge/Location-Malaysia-yellow?style=flat-square&logo=map-pin" alt="Location" />
+</div>
 
 ---
 
+### 🌟 **Hobbies & Pixelated Passions**
+
 <div align="center">
 
-*Thanks for visiting! Feel free to explore my repositories and connect with me.*
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Testing%20LLMs-Experiment-9cf?style=flat-square&logo=robot" alt="LLMs" /><br/>
+        <sub>🤖 Testing LLM Models</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Gaming-Favourite-ff69b4?style=flat-square&logo=gamepad" alt="Gaming" /><br/>
+        <sub>🎀 Infinity Nikki & 🌊 Wuthering Waves</sub>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Art-Pixel%20Art-00ff00?style=flat-square&logo=pixelfed" alt="Pixel Art" /><br/>
+        <sub>🎨 2D Pixel Art Wizard</sub>
+      </td>
+    </tr>
+  </table>
 
-**Open to collaborations and interesting projects!** 🚀
+</div>
+
+---
+
+### 🚀 **Connect Across Realms**
+
+<div align="center">
+
+  <a href="https://linkedin.com/in/amir-hafizi-musa-5530b9364">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://discord.com/users/330997221334056971">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://youtube.com/@VectorVulKan727">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://github.com/YoRzHe-HotaaRu">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
+</div>
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Rainbow Line" width="100%" height="2" />
+</p>
+
+<div align="center">
+
+  ![Pixel Art Divider](https://user-images.githubusercontent.com/74038190/212284158-e76471a0-d5f7-4a2a-8d0d-9f5d71a4f96e.gif)
+
+  **"Code, Create, Conquer – One Pixel at a Time!"** 🎮✨
+
+  <sub><i>Profile README generated with ❤️ and a touch of magic ✨</i></sub>
 
 </div>
