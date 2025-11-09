@@ -57,12 +57,6 @@
   <a href="https://agent.minimax.io/">
     <img src="https://img.shields.io/static/v1?message=MiniMax&logo=google-assistant&label=&color=00C851&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="minimax logo" />
   </a>
-</div>
-
-###
-
-<!-- Social -->
-<div align="left">
   <a href="https://linkedin.com/in/amir-hafizi-musa-5530b9364">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
   </a>
