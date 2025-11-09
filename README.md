@@ -50,7 +50,23 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
   <img src="https://img.shields.io/badge/LLMs-FF6B6B?style=flat-square&logo=huggingface&logoColor=white" alt="LLMs" />
   <img src="https://img.shields.io/badge/Open%20Source-AI-FFA500?style=flat-square&logo=opensource&logoColor=white" alt="Open Source" />
 
+  <br>
+
+  <div align="center">
+    
+  <a href="https://www.kimi.com/chat/">
+    <img src="https://img.shields.io/badge/Kimi%20AI-FF6B6B?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kimi AI" />
+  </a>
+  <a href="https://chat.z.ai/">
+    <img src="https://img.shields.io/badge/Z%20AI-0080FF?style=for-the-badge&logo=openzeppelin&logoColor=white" alt="Zhipu AI" />
+  </a>
+  <a href="https://agent.minimax.io/">
+    <img src="https://img.shields.io/badge/MiniMax-00C851?style=for-the-badge&logo=google-assistant&logoColor=white" alt="MiniMax" />
+  </a>
+  </div>
+  
 </div>
+
 
 ---
 
@@ -134,7 +150,5 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
   ![Pixel Art Divider](https://user-images.githubusercontent.com/74038190/212284158-e76471a0-d5f7-4a2a-8d0d-9f5d71a4f96e.gif)
 
   **"Code, Create, Conquer – One Pixel at a Time!"** 🎮✨
-
-  <sub><i>Profile README generated with ❤️ and a touch of magic ✨</i></sub>
 
 </div>
