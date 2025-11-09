@@ -55,7 +55,7 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
   <div align="center">
     
   <a href="https://www.kimi.com/chat/">
-    <img src="https://img.shields.io/badge/Kimi%20AI-FF6B6B?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kimi AI" />
+    <img src="https://img.shields.io/badge/Kimi%20AI-FF6B6B?style=for-the-badge&logo=keystone&logoColor=white" alt="Kimi AI" />
   </a>
   <a href="https://chat.z.ai/">
     <img src="https://img.shields.io/badge/Z%20AI-0080FF?style=for-the-badge&logo=openzeppelin&logoColor=white" alt="Zhipu AI" />
