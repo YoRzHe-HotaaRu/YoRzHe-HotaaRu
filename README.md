@@ -93,4 +93,4 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+<img src="https://github.com/YoRzHe-HotaaRu/YoRzHe-HotaaRu/blob/main/animated_fixed.svg" alt="Snake animation" />
