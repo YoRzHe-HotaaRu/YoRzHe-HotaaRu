@@ -49,10 +49,10 @@
 <!-- LLM Platforms -->
 <div align="left">
   <a href="https://www.kimi.com/chat/">
-    <img src="https://img.shields.io/static/v1?message=Kimi%20AI&logo=robot&label=&color=FF6B6B&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="kimi ai logo" />
+    <img src="https://img.shields.io/static/v1?message=Kimi%20AI&logo=&label=&color=FF6B6B&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="kimi ai logo" />
   </a>
   <a href="https://chat.z.ai/">
-    <img src="https://img.shields.io/static/v1?message=Z%20AI&logo=openai&label=&color=0080FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="z ai logo" />
+    <img src="https://img.shields.io/static/v1?message=Z%20AI&logo=&label=&color=0080FF&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="z ai logo" />
   </a>
   <a href="https://agent.minimax.io/">
     <img src="https://img.shields.io/static/v1?message=MiniMax&logo=google-assistant&label=&color=00C851&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="minimax logo" />
