@@ -87,7 +87,7 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
 ### 🌟 **Hobbies & Pixelated Passions**
 - 🤖 **Testing LLM Models** – Kimi, Z.AI GLM, MiniMax, Qwen, DeepSeek, LongCat, Ernie, SenseNova, Tongyi, Hunyuan, K2 Think
 - 🎮 **Favorite Games** – Infinity Nikki & Wuthering Waves
-- 🎨 **2D Pixel Art Dev** – Creating retro-style masterpieces
+- 🎨 **2D Pixel Art Dev** – Creating retro-style play-able stuff
 
 ###
 
