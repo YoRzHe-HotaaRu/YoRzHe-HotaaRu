@@ -72,7 +72,7 @@
 
 ### 🎮 **Current Quest**
 I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **Introductory C++ Programming** using **Godot 4**! Think *"learn to code while saving a pixelated kingdom"* 🏰✨
-> Gaame link: https://nclight.itch.io/codex-nexus
+> Game link: https://nclight.itch.io/codex-nexus
 **Tech Stack:** Godot 4, C++, GDScript
 
 ###
