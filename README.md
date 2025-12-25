@@ -14,7 +14,8 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
     alt="Repos per language"
   />
-  <br>
+  </div>
+  <div align="center">
   <!-- Most commit language -->
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YoRzHe-HotaaRu&theme=dracula"
