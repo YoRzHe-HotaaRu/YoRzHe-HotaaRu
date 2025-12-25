@@ -9,6 +9,10 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YoRzHe-HotaaRu&theme=dracula"
     alt="GitHub profile stats"
   />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
+    alt="Repos per language"
+  />
 </div>
 
 ###
