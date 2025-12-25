@@ -114,3 +114,7 @@ I'm crafting a **Narrative-Driven 2D Top-Down Adventure Game** that teaches **In
 <br clear="both">
 
 <img src="https://github.com/YoRzHe-HotaaRu/YoRzHe-HotaaRu/blob/main/animated_fixed.svg" alt="Snake animation" />
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YoRzHe-HotaaRu&bg_color=282a36&color=bd93f9&line=ff79c6&point=ff79c6&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+</div>
