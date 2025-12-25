@@ -8,7 +8,6 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YoRzHe-HotaaRu&theme=dracula"
     alt="GitHub profile stats"
   />
-  <br>
   <!-- Languages per repo -->
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
@@ -21,7 +20,6 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YoRzHe-HotaaRu&theme=dracula"
     alt="Most commit language"
   />
-  <br>
   <!-- Productive time (adjust UTC offset if needed) -->
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YoRzHe-HotaaRu&theme=dracula&utcOffset=8"
