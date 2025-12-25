@@ -6,11 +6,13 @@
   <!-- GitHub stats -->
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YoRzHe-HotaaRu&theme=dracula"
+    width="250"
     alt="GitHub profile stats"
   />
   <!-- Languages per repo -->
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
+    width="250"
     alt="Repos per language"
   />
   </div>
