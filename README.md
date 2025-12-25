@@ -4,7 +4,6 @@
 
 <div align="center">
   <!-- GitHub stats -->
-  [![YoR's GitHub stats](https://github-readme-stats.vercel.app/api?username=YoRzHe-HotaaRu)](https://github.com/anuraghazra/github-readme-stats)
   <img
     src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YoRzHe-HotaaRu&theme=dracula"
     width="250"
