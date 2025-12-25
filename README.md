@@ -3,27 +3,39 @@
 ###
 
 <div align="center">
-  <source
+  <picture>
+    <!-- Dark mode -->
+    <source
       srcset="https://github-readme-stats.vercel.app/api?username=YoRzHe-HotaaRu&show_icons=true&include_all_commits=false&count_private=true&theme=dracula&hide_border=false&border_radius=8"
       media="(prefers-color-scheme: dark)"
     />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YoRzHe-HotaaRu&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&size_weight=0&count_weight=1" />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YoRzHe-HotaaRu&theme=dracula"
-    alt="GitHub profile stats"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
-    alt="Repos per language"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YoRzHe-HotaaRu&theme=dracula"
-    alt="Most commit language"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YoRzHe-HotaaRu&theme=dracula&utcOffset=8"
-    alt="Productive time"
-  />
+    <!-- Light mode (or no preference) -->
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=YoRzHe-HotaaRu&show_icons=true&include_all_commits=false&count_private=true&hide_border=false&border_radius=8"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <!-- Fallback image -->
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=YoRzHe-HotaaRu&show_icons=true&include_all_commits=false&count_private=true&hide_border=false&border_radius=8"
+      alt="GitHub stats"
+    />
+  </picture>
+  <br>
+  <!-- Top langs: same dark/light trick -->
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=YoRzHe-HotaaRu&locale=en&layout=compact&langs_count=5&theme=dracula&hide_border=false&border_radius=8"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs?username=YoRzHe-HotaaRu&locale=en&layout=compact&langs_count=5&hide_border=false&border_radius=8"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=YoRzHe-HotaaRu&locale=en&layout=compact&langs_count=5&hide_border=false&border_radius=8"
+      alt="Most used languages"
+    />
+  </picture>
 </div>
 
 ###
