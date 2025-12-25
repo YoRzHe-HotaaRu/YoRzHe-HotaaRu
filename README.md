@@ -13,6 +13,14 @@
     src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
     alt="Repos per language"
   />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YoRzHe-HotaaRu&theme=dracula"
+    alt="Most commit language"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YoRzHe-HotaaRu&theme=dracula&utcOffset=8"
+    alt="Productive time"
+  />
 </div>
 
 ###
