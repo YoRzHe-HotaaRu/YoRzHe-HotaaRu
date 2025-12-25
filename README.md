@@ -3,11 +3,29 @@
 ###
 
 <div align="center">
-    <!-- Dark mode -->
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=YoRzHe-HotaaRu&show_icons=true&include_all_commits=false&count_private=true&theme=dracula&hide_border=false&border_radius=8"
-      media="(prefers-color-scheme: dark)"
-    />
+  <!-- GitHub stats -->
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YoRzHe-HotaaRu&theme=dracula"
+    alt="GitHub profile stats"
+  />
+  <br>
+  <!-- Languages per repo -->
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YoRzHe-HotaaRu&theme=dracula"
+    alt="Repos per language"
+  />
+  <br>
+  <!-- Most commit language -->
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YoRzHe-HotaaRu&theme=dracula"
+    alt="Most commit language"
+  />
+  <br>
+  <!-- Productive time (adjust UTC offset if needed) -->
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YoRzHe-HotaaRu&theme=dracula&utcOffset=8"
+    alt="Productive time"
+  />
 </div>
 
 ###
