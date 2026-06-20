@@ -22,32 +22,38 @@
         .title { font-family: 'Segoe UI', 'Helvetica Neue', sans-serif; font-weight: 900; font-size: 56px; fill: #f0f6fc; letter-spacing: 6px; }
         .subtitle { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; fill: #8b949e; letter-spacing: 2px; }
         
-        .cursor { animation: blink 1s infinite; }
+        .cursor { -webkit-animation: blink 1s infinite; animation: blink 1s infinite; }
+        @-webkit-keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
         @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
 
-        .rect { width: 14px; height: 14px; rx: 3px; transform-origin: center; transform-box: fill-box; animation-duration: 3.5s; animation-iteration-count: infinite; animation-timing-function: linear; }
+        .rect { width: 14px; height: 14px; rx: 3px; -webkit-transform-origin: center; transform-origin: center; transform-box: fill-box; -webkit-animation-duration: 3.5s; animation-duration: 3.5s; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
         
-        @keyframes glow0 { 0%, 100% { fill: #161b22; } 10% { fill: #2ea043; filter: drop-shadow(0 0 2px #2ea043); transform: scale(1.05); } }
-        @keyframes glow1 { 0%, 100% { fill: #0e4429; } 10% { fill: #39d353; filter: drop-shadow(0 0 4px #39d353); transform: scale(1.1); } }
-        @keyframes glow2 { 0%, 100% { fill: #006d32; } 10% { fill: #56ff76; filter: drop-shadow(0 0 5px #56ff76); transform: scale(1.15); } }
-        @keyframes glow3 { 0%, 100% { fill: #26a641; } 10% { fill: #ffffff; filter: drop-shadow(0 0 6px #ffffff); transform: scale(1.2); } }
-        @keyframes glow4 { 0%, 100% { fill: #39d353; } 10% { fill: #ffffff; filter: drop-shadow(0 0 8px #ffffff); transform: scale(1.25); } }
+        @-webkit-keyframes glow0 { 0%, 100% { fill: #161b22; } 10% { fill: #2ea043; filter: drop-shadow(0 0 2px #2ea043); -webkit-transform: scale(1.05); transform: scale(1.05); } }
+        @keyframes glow0 { 0%, 100% { fill: #161b22; } 10% { fill: #2ea043; filter: drop-shadow(0 0 2px #2ea043); -webkit-transform: scale(1.05); transform: scale(1.05); } }
+        @-webkit-keyframes glow1 { 0%, 100% { fill: #0e4429; } 10% { fill: #39d353; filter: drop-shadow(0 0 4px #39d353); -webkit-transform: scale(1.1); transform: scale(1.1); } }
+        @keyframes glow1 { 0%, 100% { fill: #0e4429; } 10% { fill: #39d353; filter: drop-shadow(0 0 4px #39d353); -webkit-transform: scale(1.1); transform: scale(1.1); } }
+        @-webkit-keyframes glow2 { 0%, 100% { fill: #006d32; } 10% { fill: #56ff76; filter: drop-shadow(0 0 5px #56ff76); -webkit-transform: scale(1.15); transform: scale(1.15); } }
+        @keyframes glow2 { 0%, 100% { fill: #006d32; } 10% { fill: #56ff76; filter: drop-shadow(0 0 5px #56ff76); -webkit-transform: scale(1.15); transform: scale(1.15); } }
+        @-webkit-keyframes glow3 { 0%, 100% { fill: #26a641; } 10% { fill: #ffffff; filter: drop-shadow(0 0 6px #ffffff); -webkit-transform: scale(1.2); transform: scale(1.2); } }
+        @keyframes glow3 { 0%, 100% { fill: #26a641; } 10% { fill: #ffffff; filter: drop-shadow(0 0 6px #ffffff); -webkit-transform: scale(1.2); transform: scale(1.2); } }
+        @-webkit-keyframes glow4 { 0%, 100% { fill: #39d353; } 10% { fill: #ffffff; filter: drop-shadow(0 0 8px #ffffff); -webkit-transform: scale(1.25); transform: scale(1.25); } }
+        @keyframes glow4 { 0%, 100% { fill: #39d353; } 10% { fill: #ffffff; filter: drop-shadow(0 0 8px #ffffff); -webkit-transform: scale(1.25); transform: scale(1.25); } }
 
-        .lv0 { fill: #161b22; animation-name: glow0; }
-        .lv1 { fill: #0e4429; animation-name: glow1; }
-        .lv2 { fill: #006d32; animation-name: glow2; }
-        .lv3 { fill: #26a641; animation-name: glow3; }
-        .lv4 { fill: #39d353; animation-name: glow4; }
+        .lv0 { fill: #161b22; -webkit-animation-name: glow0; animation-name: glow0; }
+        .lv1 { fill: #0e4429; -webkit-animation-name: glow1; animation-name: glow1; }
+        .lv2 { fill: #006d32; -webkit-animation-name: glow2; animation-name: glow2; }
+        .lv3 { fill: #26a641; -webkit-animation-name: glow3; animation-name: glow3; }
+        .lv4 { fill: #39d353; -webkit-animation-name: glow4; animation-name: glow4; }
 
-        .d1  { animation-delay: 0.0s; }  .d2  { animation-delay: 0.1s; }  .d3  { animation-delay: 0.2s; }
-        .d4  { animation-delay: 0.3s; }  .d5  { animation-delay: 0.4s; }  .d6  { animation-delay: 0.5s; }
-        .d7  { animation-delay: 0.6s; }  .d8  { animation-delay: 0.7s; }  .d9  { animation-delay: 0.8s; }
-        .d10 { animation-delay: 0.9s; }  .d11 { animation-delay: 1.0s; }  .d12 { animation-delay: 1.1s; }
-        .d13 { animation-delay: 1.2s; }  .d14 { animation-delay: 1.3s; }  .d15 { animation-delay: 1.4s; }
-        .d16 { animation-delay: 1.5s; }  .d17 { animation-delay: 1.6s; }  .d18 { animation-delay: 1.7s; }
-        .d19 { animation-delay: 1.8s; }  .d20 { animation-delay: 1.9s; }  .d21 { animation-delay: 2.0s; }
-        .d22 { animation-delay: 2.1s; }  .d23 { animation-delay: 2.2s; }  .d24 { animation-delay: 2.3s; }
-        .d25 { animation-delay: 2.4s; }
+        .d1  { -webkit-animation-delay: 0.0s; animation-delay: 0.0s; }  .d2  { -webkit-animation-delay: 0.1s; animation-delay: 0.1s; }  .d3  { -webkit-animation-delay: 0.2s; animation-delay: 0.2s; }
+        .d4  { -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }  .d5  { -webkit-animation-delay: 0.4s; animation-delay: 0.4s; }  .d6  { -webkit-animation-delay: 0.5s; animation-delay: 0.5s; }
+        .d7  { -webkit-animation-delay: 0.6s; animation-delay: 0.6s; }  .d8  { -webkit-animation-delay: 0.7s; animation-delay: 0.7s; }  .d9  { -webkit-animation-delay: 0.8s; animation-delay: 0.8s; }
+        .d10 { -webkit-animation-delay: 0.9s; animation-delay: 0.9s; }  .d11 { -webkit-animation-delay: 1.0s; animation-delay: 1.0s; }  .d12 { -webkit-animation-delay: 1.1s; animation-delay: 1.1s; }
+        .d13 { -webkit-animation-delay: 1.2s; animation-delay: 1.2s; }  .d14 { -webkit-animation-delay: 1.3s; animation-delay: 1.3s; }  .d15 { -webkit-animation-delay: 1.4s; animation-delay: 1.4s; }
+        .d16 { -webkit-animation-delay: 1.5s; animation-delay: 1.5s; }  .d17 { -webkit-animation-delay: 1.6s; animation-delay: 1.6s; }  .d18 { -webkit-animation-delay: 1.7s; animation-delay: 1.7s; }
+        .d19 { -webkit-animation-delay: 1.8s; animation-delay: 1.8s; }  .d20 { -webkit-animation-delay: 1.9s; animation-delay: 1.9s; }  .d21 { -webkit-animation-delay: 2.0s; animation-delay: 2.0s; }
+        .d22 { -webkit-animation-delay: 2.1s; animation-delay: 2.1s; }  .d23 { -webkit-animation-delay: 2.2s; animation-delay: 2.2s; }  .d24 { -webkit-animation-delay: 2.3s; animation-delay: 2.3s; }
+        .d25 { -webkit-animation-delay: 2.4s; animation-delay: 2.4s; }
     </style>
 
     <rect width="800" height="280" rx="16" fill="url(#bgGrad)" stroke="#21262d" stroke-width="2"/>
@@ -61,43 +67,62 @@
         <div xmlns="http://www.w3.org/1999/xhtml" style="width:240px;height:240px;display:flex;align-items:center;justify-content:center;overflow:visible;">
             <style>
                 .scene { perspective: 800px; width: 90px; height: 90px; }
-                .cube { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; animation: cubeSpin 12s infinite linear; }
+                .cube { width: 100%; height: 100%; position: relative; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-animation: cubeSpin 12s infinite linear; animation: cubeSpin 12s infinite linear; }
+                @-webkit-keyframes cubeSpin {
+                    0% { -webkit-transform: rotateX(-25deg) rotateY(0deg); transform: rotateX(-25deg) rotateY(0deg); }
+                    100% { -webkit-transform: rotateX(-25deg) rotateY(360deg); transform: rotateX(-25deg) rotateY(360deg); }
+                }
                 @keyframes cubeSpin {
-                    0% { transform: rotateX(-25deg) rotateY(0deg); }
-                    100% { transform: rotateX(-25deg) rotateY(360deg); }
+                    0% { -webkit-transform: rotateX(-25deg) rotateY(0deg); transform: rotateX(-25deg) rotateY(0deg); }
+                    100% { -webkit-transform: rotateX(-25deg) rotateY(360deg); transform: rotateX(-25deg) rotateY(360deg); }
                 }
 
-                .layer { position: absolute; width: 90px; height: 90px; transform-style: preserve-3d; }
+                .layer { position: absolute; width: 90px; height: 90px; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
 
-                .layer-z1 { transform: translate3d(-45px, -45px, 30px); animation: twistFront 6s infinite ease-in-out; }
-                .layer-z0 { transform: translate3d(-45px, -45px, 0px); animation: twistMiddle 6s infinite ease-in-out 2s; }
-                .layer-z-1 { transform: translate3d(-45px, -45px, -30px); animation: twistBack 6s infinite ease-in-out 4s; }
+                .layer-z1 { -webkit-transform: translate3d(-45px, -45px, 30px); transform: translate3d(-45px, -45px, 30px); -webkit-animation: twistFront 6s infinite ease-in-out; animation: twistFront 6s infinite ease-in-out; }
+                .layer-z0 { -webkit-transform: translate3d(-45px, -45px, 0px); transform: translate3d(-45px, -45px, 0px); -webkit-animation: twistMiddle 6s infinite ease-in-out 2s; animation: twistMiddle 6s infinite ease-in-out 2s; }
+                .layer-z-1 { -webkit-transform: translate3d(-45px, -45px, -30px); transform: translate3d(-45px, -45px, -30px); -webkit-animation: twistBack 6s infinite ease-in-out 4s; animation: twistBack 6s infinite ease-in-out 4s; }
 
+                @-webkit-keyframes twistFront {
+                    0%, 60% { -webkit-transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); }
+                    70%, 85% { -webkit-transform: translate3d(-45px, -45px, 30px) rotateZ(90deg); transform: translate3d(-45px, -45px, 30px) rotateZ(90deg); }
+                    95%, 100% { -webkit-transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); }
+                }
                 @keyframes twistFront {
-                    0%, 60% { transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); }
-                    70%, 85% { transform: translate3d(-45px, -45px, 30px) rotateZ(90deg); }
-                    95%, 100% { transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); }
+                    0%, 60% { -webkit-transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); }
+                    70%, 85% { -webkit-transform: translate3d(-45px, -45px, 30px) rotateZ(90deg); transform: translate3d(-45px, -45px, 30px) rotateZ(90deg); }
+                    95%, 100% { -webkit-transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); transform: translate3d(-45px, -45px, 30px) rotateZ(0deg); }
+                }
+                @-webkit-keyframes twistMiddle {
+                    0%, 60% { -webkit-transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); }
+                    70%, 85% { -webkit-transform: translate3d(-45px, -45px, 0px) rotateZ(-90deg); transform: translate3d(-45px, -45px, 0px) rotateZ(-90deg); }
+                    95%, 100% { -webkit-transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); }
                 }
                 @keyframes twistMiddle {
-                    0%, 60% { transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); }
-                    70%, 85% { transform: translate3d(-45px, -45px, 0px) rotateZ(-90deg); }
-                    95%, 100% { transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); }
+                    0%, 60% { -webkit-transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); }
+                    70%, 85% { -webkit-transform: translate3d(-45px, -45px, 0px) rotateZ(-90deg); transform: translate3d(-45px, -45px, 0px) rotateZ(-90deg); }
+                    95%, 100% { -webkit-transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); transform: translate3d(-45px, -45px, 0px) rotateZ(0deg); }
+                }
+                @-webkit-keyframes twistBack {
+                    0%, 60% { -webkit-transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); }
+                    70%, 85% { -webkit-transform: translate3d(-45px, -45px, -30px) rotateZ(-90deg); transform: translate3d(-45px, -45px, -30px) rotateZ(-90deg); }
+                    95%, 100% { -webkit-transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); }
                 }
                 @keyframes twistBack {
-                    0%, 60% { transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); }
-                    70%, 85% { transform: translate3d(-45px, -45px, -30px) rotateZ(-90deg); }
-                    95%, 100% { transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); }
+                    0%, 60% { -webkit-transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); }
+                    70%, 85% { -webkit-transform: translate3d(-45px, -45px, -30px) rotateZ(-90deg); transform: translate3d(-45px, -45px, -30px) rotateZ(-90deg); }
+                    95%, 100% { -webkit-transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); transform: translate3d(-45px, -45px, -30px) rotateZ(0deg); }
                 }
 
-                .cubie { position: absolute; width: 28px; height: 28px; transform-style: preserve-3d; }
-                .face { position: absolute; width: 28px; height: 28px; border: 1.5px solid #090c10; border-radius: 4px; box-sizing: border-box; backface-visibility: hidden; }
+                .cubie { position: absolute; width: 28px; height: 28px; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+                .face { position: absolute; width: 28px; height: 28px; border: 1.5px solid #090c10; border-radius: 4px; box-sizing: border-box; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 
-                .f-front  { transform: rotateY(0deg) translateZ(14px); }
-                .f-back   { transform: rotateY(180deg) translateZ(14px); }
-                .f-right  { transform: rotateY(90deg) translateZ(14px); }
-                .f-left   { transform: rotateY(-90deg) translateZ(14px); }
-                .f-top    { transform: rotateX(90deg) translateZ(14px); }
-                .f-bottom { transform: rotateX(-90deg) translateZ(14px); }
+                .f-front  { -webkit-transform: rotateY(0deg) translateZ(14px); transform: rotateY(0deg) translateZ(14px); }
+                .f-back   { -webkit-transform: rotateY(180deg) translateZ(14px); transform: rotateY(180deg) translateZ(14px); }
+                .f-right  { -webkit-transform: rotateY(90deg) translateZ(14px); transform: rotateY(90deg) translateZ(14px); }
+                .f-left   { -webkit-transform: rotateY(-90deg) translateZ(14px); transform: rotateY(-90deg) translateZ(14px); }
+                .f-top    { -webkit-transform: rotateX(90deg) translateZ(14px); transform: rotateX(90deg) translateZ(14px); }
+                .f-bottom { -webkit-transform: rotateX(-90deg) translateZ(14px); transform: rotateX(-90deg) translateZ(14px); }
 
                 .c-white  { background: #f0f6fc; box-shadow: inset 0 0 4px rgba(0,0,0,0.3); }
                 .c-yellow { background: #ffcc00; box-shadow: inset 0 0 4px rgba(0,0,0,0.3); }
@@ -107,15 +132,15 @@
                 .c-red    { background: #ff3b30; box-shadow: inset 0 0 4px rgba(0,0,0,0.3); }
                 .c-core   { background: #161b22; }
 
-                .p00 { transform: translate3d(0px, 0px, 0px); }
-                .p10 { transform: translate3d(30px, 0px, 0px); }
-                .p20 { transform: translate3d(60px, 0px, 0px); }
-                .p01 { transform: translate3d(0px, 30px, 0px); }
-                .p11 { transform: translate3d(30px, 30px, 0px); }
-                .p21 { transform: translate3d(60px, 30px, 0px); }
-                .p02 { transform: translate3d(0px, 60px, 0px); }
-                .p12 { transform: translate3d(30px, 60px, 0px); }
-                .p22 { transform: translate3d(60px, 60px, 0px); }
+                .p00 { -webkit-transform: translate3d(0px, 0px, 0px); transform: translate3d(0px, 0px, 0px); }
+                .p10 { -webkit-transform: translate3d(30px, 0px, 0px); transform: translate3d(30px, 0px, 0px); }
+                .p20 { -webkit-transform: translate3d(60px, 0px, 0px); transform: translate3d(60px, 0px, 0px); }
+                .p01 { -webkit-transform: translate3d(0px, 30px, 0px); transform: translate3d(0px, 30px, 0px); }
+                .p11 { -webkit-transform: translate3d(30px, 30px, 0px); transform: translate3d(30px, 30px, 0px); }
+                .p21 { -webkit-transform: translate3d(60px, 30px, 0px); transform: translate3d(60px, 30px, 0px); }
+                .p02 { -webkit-transform: translate3d(0px, 60px, 0px); transform: translate3d(0px, 60px, 0px); }
+                .p12 { -webkit-transform: translate3d(30px, 60px, 0px); transform: translate3d(30px, 60px, 0px); }
+                .p22 { -webkit-transform: translate3d(60px, 60px, 0px); transform: translate3d(60px, 60px, 0px); }
             </style>
 
             <div class="scene">
@@ -123,41 +148,40 @@
 
                     <!-- FRONT LAYER (z=+1) -->
                     <div class="layer layer-z1">
-                        <div class="cubie p00"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p10"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p20"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p01"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p11"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p21"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p02"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
-                        <div class="cubie p12"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
-                        <div class="cubie p22"><div class="face f-front c-green"></div><div class="face f-back c-core"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p00"><div class="face f-front c-green"></div><div class="face f-left c-orange"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p10"><div class="face f-front c-green"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p20"><div class="face f-front c-green"></div><div class="face f-right c-red"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p01"><div class="face f-front c-green"></div><div class="face f-left c-orange"></div></div>
+                        <div class="cubie p11"><div class="face f-front c-green"></div></div>
+                        <div class="cubie p21"><div class="face f-front c-green"></div><div class="face f-right c-red"></div></div>
+                        <div class="cubie p02"><div class="face f-front c-green"></div><div class="face f-left c-orange"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p12"><div class="face f-front c-green"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p22"><div class="face f-front c-green"></div><div class="face f-right c-red"></div><div class="face f-bottom c-yellow"></div></div>
                     </div>
 
                     <!-- MIDDLE LAYER (z=0) -->
                     <div class="layer layer-z0">
-                        <div class="cubie p00"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p10"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p20"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p01"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p11"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p21"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p02"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
-                        <div class="cubie p12"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
-                        <div class="cubie p22"><div class="face f-front c-core"></div><div class="face f-back c-core"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p00"><div class="face f-left c-orange"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p10"><div class="face f-top c-white"></div></div>
+                        <div class="cubie p20"><div class="face f-right c-red"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p01"><div class="face f-left c-orange"></div></div>
+                        <div class="cubie p21"><div class="face f-right c-red"></div></div>
+                        <div class="cubie p02"><div class="face f-left c-orange"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p12"><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p22"><div class="face f-right c-red"></div><div class="face f-bottom c-yellow"></div></div>
                     </div>
 
                     <!-- BACK LAYER (z=-1) -->
                     <div class="layer layer-z-1">
-                        <div class="cubie p00"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p10"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p20"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-white"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p01"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p11"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p21"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-core"></div></div>
-                        <div class="cubie p02"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-core"></div><div class="face f-left c-orange"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
-                        <div class="cubie p12"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-core"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
-                        <div class="cubie p22"><div class="face f-front c-core"></div><div class="face f-back c-blue"></div><div class="face f-right c-red"></div><div class="face f-left c-core"></div><div class="face f-top c-core"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p00"><div class="face f-back c-blue"></div><div class="face f-left c-orange"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p10"><div class="face f-back c-blue"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p20"><div class="face f-back c-blue"></div><div class="face f-right c-red"></div><div class="face f-top c-white"></div></div>
+                        <div class="cubie p01"><div class="face f-back c-blue"></div><div class="face f-left c-orange"></div></div>
+                        <div class="cubie p11"><div class="face f-back c-blue"></div></div>
+                        <div class="cubie p21"><div class="face f-back c-blue"></div><div class="face f-right c-red"></div></div>
+                        <div class="cubie p02"><div class="face f-back c-blue"></div><div class="face f-left c-orange"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p12"><div class="face f-back c-blue"></div><div class="face f-bottom c-yellow"></div></div>
+                        <div class="cubie p22"><div class="face f-back c-blue"></div><div class="face f-right c-red"></div><div class="face f-bottom c-yellow"></div></div>
                     </div>
 
                 </div>
